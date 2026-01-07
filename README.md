@@ -197,39 +197,3 @@ Les deux clusters "Intense & Agressif" ont des caractéristiques statistiques id
 
 **Biais du dataset**  
 70% du dataset est composé de musique électronique et rap. Les résultats ne sont donc pas généralisables à tous les genres musicaux. Un dataset équilibré serait nécessaire pour un système de recommandation universel.
-
-**Features audio seules**  
-L'analyse ne prend en compte que des caractéristiques sonores. Des features contextuelles (année de sortie, popularité, collaborations) pourraient enrichir les résultats.
-
-### Recommandations
-
-Pour aller plus loin, plusieurs pistes sont envisageables :
-
-- Tester k=4 clusters (fusionner les Clusters 3 et 4)
-- Constituer un dataset équilibré avec 2000+ morceaux par genre
-- Enrichir les features avec des données temporelles et sociales
-- Explorer le deep clustering avec des autoencodeurs
-- Valider les résultats avec des tests utilisateurs réels
-
-## Rapport académique
-
-Un rapport académique complet de 24 pages (LaTeX) accompagne ce projet. Il documente l'ensemble de la démarche : problématique, justification méthodologique, analyse des résultats et critique des limites.
-
-## Références
-
-- Spotify API : Audio Features Documentation
-- MacQueen, J. (1967). "Some methods for classification and analysis of multivariate observations"
-- McInnes, L., Healy, J., & Melville, J. (2018). "UMAP: Uniform Manifold Approximation and Projection"
-- Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008). "Isolation forest"
-
-## Auteur
-
-Nicolas - Master 2 Data Science & Machine Learning
-
-## License
-
-Ce projet est sous licence MIT.
-
-## Contact
-
-Pour toute question ou suggestion, n'hésitez pas à ouvrir une issue sur GitHub.
